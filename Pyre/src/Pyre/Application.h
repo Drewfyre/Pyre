@@ -1,12 +1,16 @@
 #pragma once
 
+#include "Core.h"
+
 namespace Pyre {
 
-	class __declspec(dllexport) Application {
+	class PYRE_API Application {
 	public:
 		Application();
 		virtual ~Application();
 
 		void Run();
 	};
+
+	Application* CreateApp();
 }

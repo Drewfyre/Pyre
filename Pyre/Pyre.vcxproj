@@ -75,8 +75,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Pyre.h" />
     <ClInclude Include="src\Pyre\Application.h" />
     <ClInclude Include="src\Pyre\Core.h" />
+    <ClInclude Include="src\Pyre\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Pyre\Application.cpp" />
