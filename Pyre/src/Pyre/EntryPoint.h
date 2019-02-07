@@ -5,7 +5,7 @@
 extern Pyre::Application* Pyre::CreateApp();
 
 int main(int argc, char** args) {
-	printf("Engine staato!");
+	Pyre::Log::Init();
 	auto app = Pyre::CreateApp();
 	app->Run();
 	delete app;
