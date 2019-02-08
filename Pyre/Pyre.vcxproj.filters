@@ -4,6 +4,9 @@
     <Filter Include="Pyre">
       <UniqueIdentifier>{A5FF8A7C-9136-8C0D-3A23-72102639080F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pyre\Events">
+      <UniqueIdentifier>{E9FF3962-55B5-B257-DEA9-AC2E4A5EA95B}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Pyre.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Pyre\EntryPoint.h">
       <Filter>Pyre</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pyre\Events\ApplicationEvent.h">
+      <Filter>Pyre\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pyre\Events\Event.h">
+      <Filter>Pyre\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pyre\Events\KeyEvent.h">
+      <Filter>Pyre\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pyre\Events\MouseEvent.h">
+      <Filter>Pyre\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Pyre\Log.h">
       <Filter>Pyre</Filter>
